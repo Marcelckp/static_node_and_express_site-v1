@@ -1,0 +1,45 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-projects
+    .inner-wrapper.flex-row-wrap.two-col
+      .project-info-box.box
+
+        //- Use the info in your data file and the comments below to complete this template
+
+        //- Use interpolation to dynamically add the project title
+        h1 Project Name
+
+        //- Use interpolation to dynamically add the project description
+        p Description
+
+      .project-tech-links-box.box
+        h6 Technologies
+        ul
+
+          //- Use an `each` iterator and interpolation to dynamically replace the li tags below with the technologies listed for this project
+          li HTML
+          li CSS
+          li JavaScript
+
+        //- Add the href values to the links below
+        a.btn-link(href='') Live Demo
+        a.btn-link(href='') GitHub Repo
+
+    .project-img-box.box
+
+      //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
+      img.project-img(src='https://placehold.it/1200x550', alt='')
+      img.project-img(src='https://placehold.it/1200x550', alt='')
+      img.project-img(src='https://placehold.it/1200x550', alt='')
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
