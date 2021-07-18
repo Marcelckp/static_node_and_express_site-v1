@@ -1,0 +1,63 @@
+{
+    "projects": [{
+            "id": "0",
+            "project_name": "Random Quote Generator",
+            "description": "A app that displays random quotes and changes the colour of the page in intervals of 10 seconds or when ever you click the button to display a new random quote",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://marcelckp.github.io/a_random_quote_generator-v1/",
+            "githubLink": "https://github.com/Marcelckp/a_random_quote_generator-v1",
+            "image_url": {
+                "display": "static/images/Random-quote-generator/Random_quote_generator_Display.png",
+                "thumbnail": "static/images/Random-quote-generator/Random_quote_generator_thumbnail.png"
+            }
+        },
+        {
+            "id": "1",
+            "project_name": "Data Pagination Filtering",
+            "description": "A app that display student information and provides pagination buttons to click through all students as well as a search feature which allows you to filter the list and search for a specific student",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://marcelckp.github.io/data-pagination-and-filtering-v1/",
+            "githubLink": "https://github.com/Marcelckp/data-pagination-and-filtering-v1",
+            "image_url": {
+                "display": "static/images/data-pagination-filtering/data-pagination-display.png",
+                "thumbnail": "static/images/data-pagination-filtering/data-pagination-thumbnail.png"
+            }
+        },
+        {
+            "id": "2",
+            "project_name": "Interactive Form",
+            "description": "A interactive form for a imaginary conference with includes in real time validation, and Accessibility features",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://marcelckp.github.io/a_interactive_form-v3/",
+            "githubLink": "https://github.com/Marcelckp/a_interactive_form-v3",
+            "image_url": {
+                "display": "static/images/interactive-form/interactive-display.png",
+                "thumbnail": "static/images/interactive-form/interactive-thumbnail.png"
+            }
+        },
+        {
+            "id": "3",
+            "project_name": "Oop Game Show App",
+            "description": "A guessing game app with extra button features to restart the game and to put the game/application into a dark mode for easier visibility in dark places",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://marcelckp.github.io/oop_Game_Show_App-v2/",
+            "githubLink": "https://github.com/Marcelckp/oop_Game_Show_App-v2",
+            "image_url": {
+                "display": "static/images/oop-game-show-app/game-display.png",
+                "thumbnail": "static/images/oop-game-show-app/game-thumbnail.png"
+            }
+        },
+        {
+            "id": "4",
+            "project_name": "Public API Request",
+            "description": "A app made to display data of students retrieved form a API and there modals/pop ups as well as a way to click through each student & search button to filter the displayed students",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://marcelckp.github.io/public_api_request-v1/",
+            "githubLink": "https://github.com/Marcelckp/public_api_request-v1",
+            "image_url": {
+                "display": "static/images/public-api-request/api-display.png",
+                "thumbnail": "static/images/public-api-request/api-thumbnail.png"
+            }
+        }
+    ]
+}

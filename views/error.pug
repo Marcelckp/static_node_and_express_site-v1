@@ -1,0 +1,12 @@
+extends layout.pug
+
+block content 
+
+    h1 Server Error
+    h2= `Error status code: ${err.status} - There was an error on the server`
+    p= err.message
+    br
+    a(href='/') Click me to return to the home page!
+    br
+    h4 For developers to use
+    pre= `${err.stack}`
