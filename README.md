@@ -1,6 +1,5 @@
 # static_node_and_express_site-v1
 My first backend orientated project working with Node.js and Express;
-Project Live link: https://marcelckp.github.io/static_node_and_express_site-v1/
 
 Css Styling:
 
