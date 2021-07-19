@@ -1,7 +1,6 @@
 const express = require('express');
 const data = require('./data.json');
 const app = express();
-const createError = require('http-errors');
 
 //view engine & static file link
 app.set('view engine', 'pug');
@@ -41,7 +40,9 @@ app.get('/projects/:id', (req, res) => {
 
 app.use((req, res, next) => {
     // console.log('404 error handler has been called')
-    next(createError(404));
+    const err = new Error('Not Found');
+    err.status = 404;
+    next(err);
 });
 
 //Global Handler
@@ -49,8 +50,7 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     // if (err) console.log('Global Handler has been called')
 
-    if (res.status === 404) {
-        res.status(404);
+    if (err.status === 404) {
         res.render('not-found.pug', { err });
     } else {
         err.message = err.message || 'There was an error processing your request!';
