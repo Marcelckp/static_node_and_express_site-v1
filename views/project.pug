@@ -11,12 +11,8 @@ block content
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
 
-        //- Use the info in your data file and the comments below to complete this template
-
-        //- Use interpolation to dynamically add the project title
         h1= dataP.project_name
 
-        //- Use interpolation to dynamically add the project description
         p= dataP.description
 
       .project-tech-links-box.box
@@ -26,15 +22,15 @@ block content
         each i in dataP.technologies
           li= i
 
-
+        br
         a.btn-link(href=`${dataP.live_link}`, target="_blank") Live Demo
         a.btn-link(href=`${dataP.githubLink}`, target="_blank") GitHub Repo
 
     .project-img-box.box
 
-      img.project-img(src=`../${dataP.image_url.display}`, alt=`${dataP.project_name}`)
-      img.project-img(src=`../${dataP.image_url.display}`, alt=`${dataP.project_name}`)
-      img.project-img(src=`../${dataP.image_url.display}`, alt=`${dataP.project_name}`)
+      img.project-img(src=`../${dataP.image_url.display[0]}`, alt=`${dataP.project_name}`)
+      img.project-img(src=`../${dataP.image_url.display[1]}`, alt=`${dataP.project_name}`)
+      img.project-img(src=`../${dataP.image_url.display[2]}`, alt=`${dataP.project_name}`)
 
     nav.nav
       a(href='/')

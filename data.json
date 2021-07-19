@@ -7,7 +7,7 @@
             "live_link": "https://marcelckp.github.io/a_random_quote_generator-v1/",
             "githubLink": "https://github.com/Marcelckp/a_random_quote_generator-v1",
             "image_url": {
-                "display": "static/images/Random-quote-generator/Random_quote_generator_Display.png",
+                "display": ["static/images/Random-quote-generator/Random_quote_generator_Display.png", "static/images/Random-quote-generator/Random_gen1.png", "static/images/Random-quote-generator/Random_gen2.png"],
                 "thumbnail": "static/images/Random-quote-generator/Random_quote_generator_thumbnail.png"
             }
         },
@@ -19,7 +19,7 @@
             "live_link": "https://marcelckp.github.io/data-pagination-and-filtering-v1/",
             "githubLink": "https://github.com/Marcelckp/data-pagination-and-filtering-v1",
             "image_url": {
-                "display": "static/images/data-pagination-filtering/data-pagination-display.png",
+                "display": ["static/images/data-pagination-filtering/data-pagination-display.png", "static/images/data-pagination-filtering/data-pag1.png", "static/images/data-pagination-filtering/data-pag2.png"],
                 "thumbnail": "static/images/data-pagination-filtering/data-pagination-thumbnail.png"
             }
         },
@@ -31,7 +31,7 @@
             "live_link": "https://marcelckp.github.io/a_interactive_form-v3/",
             "githubLink": "https://github.com/Marcelckp/a_interactive_form-v3",
             "image_url": {
-                "display": "static/images/interactive-form/interactive-display.png",
+                "display": ["static/images/interactive-form/interactive-display.png", "static/images/interactive-form/interactive1.png", "static/images/interactive-form/interactive2.png"],
                 "thumbnail": "static/images/interactive-form/interactive-thumbnail.png"
             }
         },
@@ -43,7 +43,7 @@
             "live_link": "https://marcelckp.github.io/oop_Game_Show_App-v2/",
             "githubLink": "https://github.com/Marcelckp/oop_Game_Show_App-v2",
             "image_url": {
-                "display": "static/images/oop-game-show-app/game-display.png",
+                "display": ["static/images/oop-game-show-app/game-display.png", "static/images/oop-game-show-app/game1.png", "static/images/oop-game-show-app/game2.png"],
                 "thumbnail": "static/images/oop-game-show-app/game-thumbnail.png"
             }
         },
@@ -55,7 +55,7 @@
             "live_link": "https://marcelckp.github.io/public_api_request-v1/",
             "githubLink": "https://github.com/Marcelckp/public_api_request-v1",
             "image_url": {
-                "display": "static/images/public-api-request/api-display.png",
+                "display": ["static/images/public-api-request/api-display.png", "static/images/public-api-request/api1.png", "static/images/public-api-request/api2.png"],
                 "thumbnail": "static/images/public-api-request/api-thumbnail.png"
             }
         }
