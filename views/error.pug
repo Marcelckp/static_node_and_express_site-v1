@@ -1,7 +1,10 @@
 extends layout.pug
 
 block content 
-
+    style(type='text/css').
+        .header {
+            background-color: tomato
+        }
     h1 Server Error
     h2= `Error status code: ${err.status} - There was an error on the server`
     p= err.message

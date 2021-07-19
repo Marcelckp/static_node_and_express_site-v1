@@ -2,7 +2,7 @@
     "projects": [{
             "id": "0",
             "project_name": "Random Quote Generator",
-            "description": "A app that displays random quotes and changes the colour of the page in intervals of 10 seconds or when ever you click the button to display a new random quote",
+            "description": "A app that displays random quotes and changes the colour of the page in intervals of 10 seconds or when ever you click the button to display a new random quote to the page",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://marcelckp.github.io/a_random_quote_generator-v1/",
             "githubLink": "https://github.com/Marcelckp/a_random_quote_generator-v1",
@@ -14,7 +14,7 @@
         {
             "id": "1",
             "project_name": "Data Pagination Filtering",
-            "description": "A app that display student information and provides pagination buttons to click through all students as well as a search feature which allows you to filter the list and search for a specific student",
+            "description": "A app that display student information to the page from a student data object and provides pagination buttons to click through all students that are in the data object as well as a search feature which allows you to filter the list and search for a specific student in the data object",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://marcelckp.github.io/data-pagination-and-filtering-v1/",
             "githubLink": "https://github.com/Marcelckp/data-pagination-and-filtering-v1",
@@ -26,7 +26,7 @@
         {
             "id": "2",
             "project_name": "Interactive Form",
-            "description": "A interactive form for a imaginary conference with includes in real time validation, and Accessibility features",
+            "description": "A interactive form for a imaginary conference which includes in real time validation, Accessibility features, dynamic element creation and placement & more",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://marcelckp.github.io/a_interactive_form-v3/",
             "githubLink": "https://github.com/Marcelckp/a_interactive_form-v3",
@@ -50,7 +50,7 @@
         {
             "id": "4",
             "project_name": "Public API Request",
-            "description": "A app made to display data of students retrieved form a API and there modals/pop ups as well as a way to click through each student & search button to filter the displayed students",
+            "description": "A app made to display data of students retrieved form a API and there modals/pop ups as well as a way to click through each student & search button to filter the displayed students data",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://marcelckp.github.io/public_api_request-v1/",
             "githubLink": "https://github.com/Marcelckp/public_api_request-v1",
