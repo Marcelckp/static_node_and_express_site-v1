@@ -52,10 +52,12 @@ app.use((err, req, res, next) => {
 
     if (err.status === 404) {
         res.render('not-found.pug', { err });
+        console.log('Oops, a 404 error has occurred!')
     } else {
+        console.log('Oops, a server error has occurred!')
         err.message = err.message || 'There was an error processing your request!';
         err.status = err.status || 500;
-        res.render('error', { err });
+        res.render('page-not-found.pug', { err });
     }
 });
 

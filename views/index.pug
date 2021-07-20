@@ -15,6 +15,6 @@ block content
   each i in dataP
     .cell
       a(href=`/projects/${i.id}`)
-        img.thumbnail(src=`${i.image_url.thumbnail}` alt=`${i.project_name}`)
+        img.thumbnail(src=`${i.image_urls.thumbnail}` alt=`${i.project_name}`)
         h5= `${i.project_name}`
 

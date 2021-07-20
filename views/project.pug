@@ -24,13 +24,13 @@ block content
 
         br
         a.btn-link(class = 'btn-live', href=`${dataP.live_link}`, target="_blank") Live Demo
-        a.btn-link(class = 'btn-repo', href=`${dataP.githubLink}`, target="_blank") GitHub Repo
+        a.btn-link(class = 'btn-repo', href=`${dataP.github_Link}`, target="_blank") GitHub Repo
 
     .project-img-box.box
 
-      img.project-img(src=`../${dataP.image_url.display[0]}`, alt=`${dataP.project_name}`)
-      img.project-img(src=`../${dataP.image_url.display[1]}`, alt=`${dataP.project_name}`)
-      img.project-img(src=`../${dataP.image_url.display[2]}`, alt=`${dataP.project_name}`)
+      img.project-img(src=`../${dataP.image_urls.display[0]}`, alt=`${dataP.project_name}`)
+      img.project-img(src=`../${dataP.image_urls.display[1]}`, alt=`${dataP.project_name}`)
+      img.project-img(src=`../${dataP.image_urls.display[2]}`, alt=`${dataP.project_name}`)
 
     nav.nav
       a(href='/')
